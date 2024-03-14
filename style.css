@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:poppins, Helvetica, sans-serif;
+   
+}
+.container{
+    background-color: rgb(238, 172, 128);
+    min-height: 100vh;
+    border: 20px solid rgba(228, 132, 7, 0.932);
+    
+}
+.content{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.image_container,img{
+    width: 430px;
+    border-radius: 110px;
+position: relative;
+    
+}
+
+.top_section {
+   display: flex;
+   justify-content: space-between;    
+   margin: 100px 0 ;
+   align-items: center;
+}
+
+.top_section h1{
+    font-size:90px;
+    color: rgb(243, 112, 5);
+    text-transform: uppercase;
+    
+}
+.top_section h4{
+    font-size:40px;
+    text-align: end;
+}
+.about h2{
+ font-size: 60px;
+
+}
+.about p{
+    font-size: large;
+    text-align: justify;
+}
+.books{
+    margin: 100px 0 ; 
+    font-size:x-large;
+}
+.books ul{
+    font-size: large
+}
+footer h4{
+    text-align: end;
+}
+footer h4 a{
+    text-decoration: none;
+}
